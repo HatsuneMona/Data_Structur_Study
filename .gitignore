@@ -1,0 +1,44 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+20190304文件操作/.vs/20190304文件操作/v15/.suo
+20190304文件操作/20190304文件操作/4thTeam.txt
+*.db
+*.opendb
+*.ipch
+*.pdb
+*.idb
+*.tlog
+*.log
+*.ilk
+20190310顺序表/.vs/20190310顺序表/v15/.suo
+20190310顺序表/20190310顺序表/20190310顺序表.zip
