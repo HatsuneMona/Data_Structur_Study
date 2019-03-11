@@ -18,5 +18,8 @@
     <ClCompile Include="miao.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="错掉的cpp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
