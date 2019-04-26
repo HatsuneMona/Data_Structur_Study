@@ -97,6 +97,17 @@ Status ProcessingPolynomial(LinkList &L) {
 	return OK;
 }
 
+LinkList SumPolynomial(LinkList L, LinkList M) {
+	LNode* p = L;
+	LinkList sum;
+	InitList(sum);
+	sum = p;//将L链表直接赋给sum
+	while (p->next) 
+		p = p->next;
+	p->next = M->next;
+	return sum;
+}
+
 Status Swap(LNode* p, LNode* q) {
 	ElemType dataTemp = p->data;
 	p->data = q->data;

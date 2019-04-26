@@ -133,25 +133,18 @@ void Work_1() {
 	else 
 		Addelem(result, class1.elem[j++]);
 	//中部排序结果的赋值（遇到某一个数组中断后停止）。
-	while (i <= class1.last && j <= class2.last) {
-		if (class1.elem[i] <= class2.elem[j]) {
+	while (i <= class1.last && j <= class2.last) 
+		if (class1.elem[i] <= class2.elem[j]) 
 			Addelem(result, class1.elem[i++]);
-		}
-		else {
+		else 
 			Addelem(result, class1.elem[j++]);
-		}
-	}
 	//遇到某一个数组中断后,剩余的数组元素照抄另一个没有完的数组。
-	if (i > class1.last) {
-		while (j <= class2.last) {
+	if (i > class1.last) 
+		while (j <= class2.last) 
 			Addelem(result, class2.elem[j++]);
-		}
-	}
-	else if (j > class2.last) {
-		while (i <= class1.last) {
+	else if (j > class2.last) 
+		while (i <= class1.last) 
 			Addelem(result, class1.elem[i++]);
-		}
-	}
 }
 //任务二：头尾交换重新排队。将顺序表A逆置，只允许在原表的存储空间外再增加一个附加的工作单元。
 void Work_2() {
